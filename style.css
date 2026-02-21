@@ -1,0 +1,51 @@
+body {
+	font-family: Arial;
+	margin: 0;
+	background: #f2f2f2;
+}
+
+header {
+	background: #0077b6;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.destinations {
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+}
+
+.card {
+	background: white;
+	padding: 15px;
+	width: 200px;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 0 0 10px gray;
+}
+
+button {
+	padding: 8px 12px;
+	background: #0077b6;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #023e8a;
+}
+
+.booking {
+	text-align: center;
+	margin: 30px;
+}
+
+input {
+	display: block;
+	margin: 10px auto;
+	padding: 8px;
+	width: 250px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Explore India</h1>
+</header>
+
+<section class="destinations">
+    <div class="card">
+        <h3>Goa</h3>
+        <p>Starting ₹5000</p>
+        <button onclick="selectDestination('Goa',5000)">Book Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Manali</h3>
+        <p>Starting ₹7000</p>
+        <button onclick="selectDestination('Manali',7000)">Book Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Jaipur</h3>
+        <p>Starting ₹4000</p>
+        <button onclick="selectDestination('Jaipur',4000)">Book Now</button>
+    </div>
+</section>
+
+<section class="booking">
+    <h2>Book Your Trip</h2>
+
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="number" id="days" placeholder="Number of Days">
+    <input type="text" id="destination" placeholder="Destination" readonly>
+
+    <button onclick="calculatePrice()">Confirm Booking</button>
+
+    <div id="result"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
